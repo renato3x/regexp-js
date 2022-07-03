@@ -8,6 +8,7 @@ pão de queijo.
 Não canso de ouvir a Maria:
 "Joooooooooãoooooooooooooooooooooooooooo   , o café tá prontinho aqui. Veeemm"!
 `
+const html = '<p>Hello World</p> <p>Hello again</p>'
 
 const files = [
   'Atenção.jpg',
@@ -21,5 +22,6 @@ const files = [
 
 module.exports = {
   text,
-  files
+  files,
+  html
 }
